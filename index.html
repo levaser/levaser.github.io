@@ -1,5 +1,27 @@
-<ol>
-  <li><a href="http://kubsu.ru/">КубГУ</a></li>
-  <li><a href="https://www.kubsu.ru/index.php">Главная страница КубГУ</a></li>
-  <li><a href="https://www.kubsu.ru/index.php"><img src="image.jpg" alt="Открытка" style="width: 600px;" /></a></li>
-</ol>
+<!DOCTYPE html>
+
+<html lang="ru">
+
+    <head>
+        <title>Главная страница</title>
+    </head>
+
+    <body>
+        <ol id="main_list">
+            <li><a href="http://kubsu.ru/">КубГУ</a></li>
+            <li><a href="https://www.kubsu.ru/index.php">Главная страница КубГУ</a></li>
+            <li><a href="https://www.kubsu.ru/index.php"><img src="image.jpg" alt="Открытка" style="width: 600px;" /></a></li>
+            <li><a href="/second_page.html">Сокращенная ссылка на внутреннюю страницу</a></li>
+            <li><a href="#main_list">Ссылка на начало списка</a></li>
+            <li><a href="./second_page.html?user=qwer&password=nxd7d&age=17">Ссылка с параметрами</a></li>
+            <li><a href="./second_page.html?id=12">Ссылка с параметром id</a></li>
+            <li><a href="./second_page.html">Относительная ссылка на страницу в текущем каталоге</a></li>
+            <li><a href="./about/third_page.html">Относительная ссылка на страницу в каталоге about</a></li>
+            <li><a href="../fourth_page.html">Относительная ссылка на страницу в каталоге на уровень выше</a></li>
+            <li><a href="../../fourth_page.html">Относительная ссылка на страницу в каталоге на два уровня выше</a></li>
+            <li><a>В этом абзаце содержится <a href="">контекстная ссылка</a></a></li>
+            <li><a href="https://www.kubsu.ru/index.php#:~:text=%D0%9E-,%D0%B2%D0%B0%D0%B6%D0%BD%D0%BE%D0%BC,-2%20567%20%D1%81%D1%82%D1%83%D0%B4%D0%B5%D0%BD%D1%82%D0%BE%D0%B2">Ссылка на фрагмент сайта КубГУ</a></li>
+        </ol>
+    </body>
+
+</html>
