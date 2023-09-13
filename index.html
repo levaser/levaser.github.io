@@ -21,6 +21,9 @@
                 <a href="/second_page.html">Сокращенная ссылка на внутреннюю страницу</a>
             </li>
             <li>
+                <a href="/index.html">Сокращенная ссылка на главную страницу</a>
+            </li>
+            <li>
                 <a href="#main_list">Ссылка на начало списка</a>
             </li>
             <li>
@@ -67,7 +70,83 @@
                     <li><a href="https://ru.wikipedia.org/wiki/Булгаков,_Михаил_Афанасьевич" title="Булгаков">Писатель</a></li>
                 </ol>
             </li>
+            <li>
+                <a href="ftp://user:parol12@address.ru/file.txt">Ссылка на файл на сервере ftp с авторизацией</a>
+            </li>
         </ol>
+
+        <br /><br />
+        <form action="/"
+            method="POST">
+
+            <label>
+                ФИО:<br />
+                <input name="field-name"
+                placeholder="Введите ваше ФИО" />
+            </label><br /><br />
+
+            <label>
+                Телефон:<br />
+                <input name="field-phone"
+                placeholder="Введите ваш номер"
+                type="tel" />
+            </label><br /><br />
+
+            <label>
+                Email:<br />
+                <input name="field-email"
+                type="email"
+                placeholder="Введите вашу почту" />
+            </label><br /><br />
+
+            <label>
+                Дата рождения:<br />
+                <input name="field-birthday"
+                placeholder="2000-01-01"
+                type="date" />
+            </label><br /><br />
+
+            Пол:<br />
+            <label><input type="radio" checked="checked"
+                name="radio-group-1" value="Мужчина" />
+                Мужской</label>
+            <label><input type="radio"
+                name="radio-group-1" value="Женщина" />
+                Женский</label><br /><br />
+
+            <label>
+                Любимый язык программирования:
+                <br />
+                <select name="field-pl"
+                multiple="multiple" size="11">
+                <option value="Pascal">Pascal</option>
+                <option value="C">C</option>
+                <option value="C++">C++</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="PHP">PHP</option>
+                <option value="Python">Python</option>
+                <option value="Java">Java</option>
+                <option value="Haskel">Haskel</option>
+                <option value="Clojure">Clojure</option>
+                <option value="Prolog">Prolog</option>
+                <option value="Scala">Scala</option>
+                </select>
+            </label><br /><br />
+
+            <label>
+                Биография:<br />
+                <textarea name="field-biograthy">Пишите здесь...</textarea>
+            </label><br /><br />
+
+            <br />
+            <label>
+                <input type="checkbox"
+                name="check-1" />
+                с контрактом ознакомлен(а)
+            </label><br />
+
+            <input type="submit" value="Сохранить" />
+        </form>
     </body>
 
 </html>
