@@ -61,7 +61,9 @@
             <li><a>Ссылка без href</a></li>
             <li><a href="./second_page.html" rel="nofollow">Ссылка с запретом перехода для поисковиков</a></li>
             <li>
-                <a href="/second_page.html"><!--noindex–->Ссылка, запрещенная для индексации поисковикам<!--/noindex--></a>
+                <a href="/second_page.html">
+                    <!--noindex–->Ссылка, запрещенная для индексации поисковикам<!--/noindex-->
+                </a>
             </li>
             <li>
                 <ol>
@@ -75,48 +77,47 @@
             </li>
         </ol>
 
-        <br /><br />
+        <br><br>
         <form action="/"
             method="POST">
 
             <label>
-                ФИО:<br />
+                ФИО:<br>
                 <input name="field-name"
-                placeholder="Введите ваше ФИО" />
-            </label><br /><br />
+                placeholder="Введите ваше ФИО">
+            </label><br><br>
 
             <label>
-                Телефон:<br />
+                Телефон:<br>
                 <input name="field-phone"
                 placeholder="Введите ваш номер"
-                type="tel" />
-            </label><br /><br />
+                type="tel">
+            </label><br><br>
 
             <label>
-                Email:<br />
+                Email:<br>
                 <input name="field-email"
                 type="email"
-                placeholder="Введите вашу почту" />
-            </label><br /><br />
+                placeholder="Введите вашу почту">
+            </label><br><br>
 
             <label>
-                Дата рождения:<br />
+                Дата рождения:<br>
                 <input name="field-birthday"
-                placeholder="2000-01-01"
-                type="date" />
-            </label><br /><br />
+                type="date">
+            </label><br><br>
 
-            Пол:<br />
+            Пол:<br>
             <label><input type="radio" checked="checked"
-                name="radio-group-1" value="Мужчина" />
+                name="radio-group-1" value="Мужчина">
                 Мужской</label>
             <label><input type="radio"
-                name="radio-group-1" value="Женщина" />
-                Женский</label><br /><br />
+                name="radio-group-1" value="Женщина">
+                Женский</label><br><br>
 
             <label>
                 Любимый язык программирования:
-                <br />
+                <br>
                 <select name="field-pl"
                 multiple="multiple" size="11">
                 <option value="Pascal">Pascal</option>
@@ -131,21 +132,21 @@
                 <option value="Prolog">Prolog</option>
                 <option value="Scala">Scala</option>
                 </select>
-            </label><br /><br />
+            </label><br><br>
 
             <label>
-                Биография:<br />
+                Биография:<br>
                 <textarea name="field-biograthy">Пишите здесь...</textarea>
-            </label><br /><br />
+            </label><br><br>
 
-            <br />
+            <br>
             <label>
                 <input type="checkbox"
-                name="check-1" />
+                name="check-1">
                 с контрактом ознакомлен(а)
-            </label><br />
+            </label><br>
 
-            <input type="submit" value="Сохранить" />
+            <input type="submit" value="Сохранить">
         </form>
     </body>
 
