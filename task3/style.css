@@ -1,18 +1,3 @@
-@media screen and (min-width: 960px) {
-    .content {
-        align-self: center;
-        width: 960px;
-    }
-
-    #hyperlinks-list {
-        order: 2;
-    }
-
-    #table {
-        order: 3;
-    }
-}
-
 body {
     display: flex;
     flex-direction: column;
@@ -109,4 +94,19 @@ th, td {
 
 .even-tr {
     background-color: gray;
+}
+
+@media screen and (min-width: 960px) {
+    .content {
+        align-self: center;
+        width: 960px;
+    }
+
+    #hyperlinks-list {
+        order: 2;
+    }
+
+    #table {
+        order: 3;
+    }
 }
