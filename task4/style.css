@@ -1,14 +1,14 @@
-body {
-    margin: 0;
-}
-
 .content {
     display: flex;
     flex-direction: column;
 }
 
 .divider {
+    background-color: rgb(211, 211, 211);
     height: 2rem;
+}
+
+.bg-gray {
     background-color: rgb(211, 211, 211);
 }
 
@@ -19,13 +19,5 @@ body {
 
     #hyperlinks-list {
         order: 2;
-    }
-
-    #form {
-        order: 3;
-    }
-
-    #footer {
-        order: 4;
     }
 }
