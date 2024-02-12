@@ -1,0 +1,417 @@
+html {
+    font-family: 'Montserrat';
+}
+
+.mobile-nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 35px;
+    position: sticky;
+    bottom: 0;
+    z-index: 100;
+}
+.logo-m{
+    height: 21px;
+    margin-top: 8px;
+}
+.mob-menu{
+    width: 100vw;
+}
+
+.logo{
+    display: none;
+}
+.nav-links li{
+    display: none;
+}
+.hdr-tariffs-btn{
+    font-size: 11px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.header-info-border{
+    border-left: 3px solid #f14d34;
+}
+.cup{
+    margin-top: -48px;
+}
+.bgvideo{
+    height: 1100px;
+    z-index: -9999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: -350px;
+}
+.header{
+    min-width: 100%;
+    height: 850px;
+    overflow: hidden;
+    position: relative;
+    background-color: rgba(0 0 0 / 0.7);
+}
+
+
+.titleColor{
+    color: #050C33;
+}
+
+.support{
+    line-height: 120%;
+    margin-bottom: -270px;
+}
+.all-support-item{
+    margin-left: -0.1%;
+    margin-right: -0.1%;
+    margin-bottom: -0.1%;
+}
+.support-item{
+    width: 100%;
+    min-height: 280px;
+    position: relative;
+    z-index: 10;
+}
+.support-img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+}
+.expertise{
+    background: linear-gradient(254.72deg,rgba(255,255,255,.276) -114.85%,rgba(255,255,255,0) 69.04%),#040613;
+    height: 1090px;
+    position: relative;
+    z-index: 0;
+}
+.expertise-content{
+    padding-top: 290px;
+}
+.exp-el-body{
+    border-left: 3px solid #f14d34;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.exp-el-text{
+    color: #f14d34;
+}
+.support-item-text {
+    position: absolute;
+    padding-right: 10%;
+}
+.laptop-img{
+    width: 420px; 
+    height: 383px;
+    margin-top: 480px;
+}
+
+.tariffs-bg{
+    right: 0;
+    opacity: 0.2;
+    height: 1570px;
+}
+.tariffs-bg-img{
+    height: 100%;
+}
+.tariffs-title{
+    padding-top: 18%;
+}
+.tariffs-start{
+    margin-bottom: 8%;
+}
+.tariffs-vip{
+    margin-bottom: 4%;
+}
+.tariffs-bus{
+    margin-bottom: 2%;
+}
+.tariffs-el-title{
+    color: #f14d34;
+    font-size: 20px;
+    font-weight: 600;
+}
+.bus-tariffs-btn{
+    background-color: #f14d34;
+    border-radius: 6px;
+    text-align: center;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 13px;
+}
+.tariffs-btn{
+    text-align: center;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 13px;
+    border: 1px solid #f14d34;
+    border-radius: 6px;
+}
+.tariffs-btn-cont{
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #f14d34;
+}
+.tariffs-bottom-link-fs{
+    font-size: 13px;
+    font-weight: 500;
+}
+.checkmark{
+    height: 15px; 
+    width: 15px; 
+    margin-top: -5px;
+}
+
+.comp2-title{
+    line-height: 32px;
+    margin-top: 20%;
+}
+.comp2-el-title{
+    font-size: 32px;
+}
+
+.team-img{
+    height: 200px;
+    width: 200px;
+}
+.team{
+    margin-top: 80px;
+}
+.team-name{
+    font-size: 20px;
+}
+.team-info{
+    opacity: 0.7;
+    padding-right: 20px;
+}
+.all-team-btn{
+    font-size: 14px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.cases-img-sm {
+    width: 100%;
+    height: 175px;
+    object-fit: cover;
+}
+.cases-img-md {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.cases-md {
+    position: relative;
+}
+.text-over-img {
+    position: absolute;
+    width: 60%;
+    left: 0;
+    bottom: 0;
+}
+
+.review-logo {
+    width: auto;
+    height: 50px;
+}
+.carousel-button {
+    border: 0;
+    opacity: .5;
+    background-color: initial;
+}
+
+.faq {
+    margin-bottom: 3vh;
+    cursor: pointer;
+}
+.faq-selected {
+    color: red;
+}
+
+.faqd {
+    display: none;
+}
+.faqd-visible {
+    display: block;
+    color: black;
+}
+
+.form {
+    margin-top: 10vh;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+    background: linear-gradient(254.72deg,rgba(255,255,255,.276) -114.85%,rgba(255,255,255,0) 69.04%),#040613;
+}
+.drupal-logo {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    transform: rotate(-30deg);
+    z-index: 0;
+    opacity: 60%;
+}
+.text-over-layout {
+    z-index: 1;
+}
+
+.ff-m {
+    font-family: 'Montserrat';
+}
+
+.btn-form {
+    background-color: #FF7F00;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-form:hover {
+    background-color: #FF6600;
+}
+
+
+@media screen and (min-width: 768px){
+    .cases-img-md {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+    }
+    .mobile-nav{
+        display: none;
+    }
+
+    .logo{
+        display: block;
+    }
+    .nav-links li{
+        font-size: 12px;
+        display: block;
+        list-style-type: none;
+    }
+    .bgvideo{
+        width: 100%;
+        z-index: -9999;
+        position: absolute;
+        top: -100px;
+        left: 0;
+        margin-left: unset;
+    }
+    .header{
+        width: 100%;
+        height: 550px;
+        position: relative;
+        overflow: hidden;
+        background-color: rgba(0 0 0 / 0.7);
+    }
+    
+    .support{
+        line-height: 120%;
+        z-index: 20;
+        margin-bottom: -200px;
+    }
+    .support-img{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: 10;
+    }
+
+    /* Dropdown menu */
+    .dropbtn {
+        background: none;
+        color: white;
+        border: unset;
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f14d34;
+        min-width: 190px;
+        z-index: 1;
+    }
+    .dropdown-content a {
+        color: white;
+        padding: 3px 5px;
+        text-decoration: none;
+        display: block;
+    }
+    
+    .dropdown-content a:hover {background-color: #c2331c;}
+    
+    .dropdown:hover .dropdown-content {display: block;}
+    
+    .caret {
+        display: inline-block;
+        width: 0;
+        height: 0;
+        margin-left: 2px;
+        vertical-align: middle;
+        border-top: 4px dashed;
+        border-top: 4px solid \9;
+        border-right: 4px solid transparent;
+        border-left: 4px solid transparent;
+    }
+    /* Dropdown menu */
+    .laptop-img{
+        width: 625px; 
+        height: 603px;
+        margin-top: 0;
+    }
+    
+    .expertise{
+        background: linear-gradient(254.72deg,rgba(255,255,255,.276) -114.85%,rgba(255,255,255,0) 69.04%),#040613;
+        height: 800px;
+        position: relative;
+    }
+    .exp-info{
+        left: 50vw;
+    }
+    .tariffs-title{
+        padding-top: 12%;
+    }
+    .tariffs-bg{
+        right: 0;
+        opacity: 0.2;
+        height: unset;
+    }
+    .tariffs-second-el-content{
+        font-size: 14px;
+    }
+
+    .comp2-title{
+        margin-top: 10%;
+    }
+
+    .team-img{
+        height: 230px;
+        width: 230px;
+    }
+    .team-name{
+        font-size: 17px;
+    }
+    .team-info{
+        padding-right: 80px;
+    }
+    .all-team-btn{
+        font-size: 14px;
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
